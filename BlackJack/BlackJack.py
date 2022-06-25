@@ -64,6 +64,8 @@ def blackjack():
       print(f"your cards: {ycards}, your score: {yscore}")
       print(f"computer cards: {ccards}, computer score: {cscore}")
       print("you loose \U0001F62D")
+    elif yscore==cscore:
+      print("it is a draw")
 call= True
 while call:
   blackjack()
