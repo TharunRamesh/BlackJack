@@ -1,3 +1,4 @@
+from replit import clear
 import random
   
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
@@ -67,5 +68,6 @@ call= True
 while call:
   blackjack()
   cl= input("Do you want to continue playing? type 'y' or 'n': ").lower()
+  clear()
   if cl=='n':
     call = False
